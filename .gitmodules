@@ -1,0 +1,12 @@
+[submodule "packages/pineapple"]
+	path = packages/pineapple
+	url = git@github.com:TurnipXenon/pineapple.git
+[submodule "packages/seaweed"]
+	path = packages/seaweed
+	url = git@github.com:TurnipXenon/seaweed.git
+[submodule "packages/speenus"]
+	path = packages/speenus
+	url = git@github.com:TurnipXenon/speenus.git
+[submodule "packages/turnip"]
+	path = packages/turnip
+	url = git@github.com:TurnipXenon/turnip.git

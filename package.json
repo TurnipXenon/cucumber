@@ -1,0 +1,21 @@
+{
+  "name": "cucumber",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --filter '@turnipxenon/turnip' dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide"
+  ]
+}
