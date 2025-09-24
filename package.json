@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run --filter '@turnipxenon/turnip' dev"
+    "dev": "bun run --filter '@turnipxenon/turnip' dev",
+    "install:vercel": "git submodule update --init && bun install"
   },
   "devDependencies": {
     "@types/bun": "latest"
